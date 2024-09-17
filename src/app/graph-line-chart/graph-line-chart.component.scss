@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(../../assets/fonts/SFPRODISPLAYREGULAR.OTF);
+}
+canvas {
+    width: 100% !important;
+    height: auto !important; 
+}
+.graph_container{
+    border: 1px solid #E4E6E9;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 0 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+    .icon-dot{
+        flex-grow: 1;
+    }
+}
+#chartjs-tooltip{
+    padding: 10px 20px;
+    min-width: 237px;    
+    min-height: 50px;
+}

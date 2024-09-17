@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-angular14-line-graph';
+  routeArray = [        
+    {
+        title: 'Graph Line Chart',
+        route: '/graph-line-char'
+    },        
+];
 }
